@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>njudung.etnolit.se</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400|Roboto:100,400&didplay=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1 id="main-header">njudung.etnolit.se</h1>
+          <a id="main-header-down-arrows" href="#page-start" alt="Början på sidan.">
+            <svg width="40" height="55" viewBox="0 0 40 55">
+              <polyline id="arrow-1" points="5,5 20,20 35,5" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0;" />
+              <polyline id="arrow-2" points="5,20 20,35 35,20" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0;" />
+              <polyline id="arrow-3" points="5,35 20,50 35,35" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" style="opacity: 0;" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns" id="page-start">
+          <p>
+            Välkommen till Teknikprogrammets webbserver på Njudungsgymnasiet. Denna server används för kursen
+            <i>Webbutveckling 1.</i>
+          </p>
+
+          <h2 id="personlig-sajt">Sökväg till personlig sajt</h2>
+          <p>
+            För att besöka din sida använder du adressen <code>https://njudung.etnolit.se/~namn/</code> där du byter ut
+            namn mot ditt användarnamn.
+          </p>
+
+          <h2 id="ladda-upp">Ladda upp filer</h2>
+          <p>
+            För att komma igång med uppladdning av dina filer behöver du ett program som kan prata <i>WebDAV</i>.
+            Ett sådant program är Cyberduck. För att komma igång kan du följa instruktionerna nedan.
+          </p>
+
+          <h3>Videoinstruktion</h3>
+          <p>Här är en videoinstruktion där du ser hur du kan komma igång med Cyberduck.</p>
+          <div class="video">
+            <iframe src="https://player.vimeo.com/video/358595119" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+
+          <h3>Instruktion</h3>
+          <p>Följande instruktioner är samma som det som visades i videon ovan.</p>
+          <ol id="getting-started" class="vertical-timeline">
+            <li>
+              <div>
+                <img id="cyberduck-icon"
+                     class="float-right"
+                     src="images/cyberduck-icon.png"
+                     alt="Ikon för programmet Cyberduck.">
+                <p>
+                  Ladda hem och installera <a href="https://cyberduck.io/download/">Cyberduck</a>. Det är gratis att
+                  använda.
+                </p>
+                <div class="u-cf"></div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img class="float-right"
+                     src="images/cyberduck-bookmarks-icon.png"
+                     alt="Ikonen för bokmärken.">
+                När du öppnat Cyberduck växlar du till <i>Bokmärken</i>.
+              </div>
+            </li>
+            <li>
+              <div>
+                <img class="float-right"
+                     src="images/cyberduck-new-bookmark-icon.png"
+                     alt="Ikonen för nytt bokmärke.">
+                 I nederkant till vänster hittar du knappen för <i>Nytt bokmärke</i>.
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>
+                  Välj <i>WebDAV (HTTPS)</i> och fyll i panelen med server (<i>njudung.etnolit.se</i>) och sökväg
+                  (<i>/dav</i>) som du hittar under fler inställningar.
+                </p>
+                <p>
+                  Använd det användarnamn och lösenord som du fått av din lärare.
+                </p>
+                <img src="images/cyberduck-new-bookmark.png"
+                     alt="Panelen för nytt bokmärke.">
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>
+                  Panelen <i>Bokmärken</i> kommer nu innehålla ett nytt bokmärke. När du dubbelklickar på detta ansluter
+                  Cyberduck till servern.
+                </p>
+                <img src="images/cyberduck-with-bookmark.png"
+                     alt="Panelen bokmärken med ett nytt bokmärke.">
+              </div>
+            </li>
+            <li>
+              <div>
+                <p>
+                  Om allt fungerat som det ska ser du nu en listning av de filer som finns i din mapp på servern.
+                </p>
+                <img src="images/cyberduck-file-listing.png"
+                     alt="Exempel på fillistning i Cyberduck.">
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </article>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="seven columns">
+          <p>
+            Denna server finns enbart till för elever som läser Webbutveckling på Njudungsgymnasiet i Vetlanda. Det är
+            inte tillåtet att försöka skaffa sig tillgång till dessa resurser utan att ha rätt till det. All användning
+            skall ske utan syfte att störa eller förstöra. Att förolämpa eller förnedra personer ses som mycket allvarligt.
+          </p>
+        </div>
+        <div class="five columns right">
+          <p>&copy; 2019 Njudungsgymnasiet</p>
+          <p>Kontakt<br>linus.torngren@vetlanda.se</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
